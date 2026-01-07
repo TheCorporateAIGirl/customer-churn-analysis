@@ -37,7 +37,7 @@ Dataset link: https://lnkd.in/erDSyNV7
 - Month-to-month contract customers have the highest churn risk
 - High monthly charges relative to tenure increase churn likelihood
 - Long tenure does not guarantee customer retention
-![Main Insight - Churn by Contract](Churn Analysis Contract Type.png)
+![Main Insight](contract_churn.png)
 *Figure 1: Visualization showing the high correlation between Month-to-Month contracts and churn rates.*
 
 ## Model Evaluation
@@ -46,7 +46,7 @@ Dataset link: https://lnkd.in/erDSyNV7
 - Class imbalance handled using class weighting
 - Recall prioritized due to higher business cost of missed churners
 - ROC-AUC used to evaluate ranking performance
-![Confusion Matrix](Churn Analysis Confusion Martix.png)
+![Confusion Matrix](confusion_matrix.png)
 *Figure 2: Confusion Matrix demonstrating the model's performance in capturing churners (Recall focus).*
 ## Business Recommendations
 - Incentivize month-to-month customers to switch to long-term contracts
@@ -61,10 +61,10 @@ Dataset link: https://lnkd.in/erDSyNV7
 - SHAP
 - 
 - ## Model Interpretability (SHAP)
-![SHAP Summary Plot](SHAP Value for Churn Analysis.png)
+![SHAP Plot](shap_plot.png)
 *Figure 3: SHAP summary plot illustrating the global impact of features like tenure and contract type on the model's predictions.*
 
 ## Author
 **Famiwaye Oluwatobiloba Omowunmi**  
-Aspiring Data Scientist
+  Data Scientist
 
